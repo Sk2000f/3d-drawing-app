@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2a2a;
+    padding: 15px;
+}
+
+.control-panel button {
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.control-panel button:hover {
+    background-color: #5a5a5a;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.tool-button {
+    background-color: #3a3a3a;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.tool-button:hover {
+    background-color: #5a5a5a;
+}
+
+.canvas {
+    flex-grow: 1;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .control-panel {
+        flex-direction: column;
+    }
+
+    .toolbar {
+        flex-direction: column;
+    }
+}
