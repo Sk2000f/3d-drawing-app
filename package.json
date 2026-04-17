@@ -1,0 +1,12 @@
+{
+  "name": "3d-drawing-app",
+  "version": "1.0.0",
+  "description": "A full-featured 3D drawing application using Three.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "keywords": ["3d", "drawing", "three.js", "canvas", "art"],
+  "author": "Sk2000f",
+  "license": "MIT"
+}
